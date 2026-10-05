@@ -1,0 +1,44 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Test, coverage, and analysis output
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+/htmlcov/
+/coverage.xml
+
+# Keep tests and verification scripts local rather than publishing them.
+/tests/
+/scripts/
+
+# Build output
+/build/
+/dist/
+*.egg-info/
+.eggs/
+
+# Local model files, sessions, and verification output
+/models/
+/sessions/
+/.gpt2-mlx-cli/
+# Preserve the ignore rule for legacy local session data.
+/.anne/
+/artifacts/
+
+# Local configuration and secrets; keep example files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# macOS metadata
+.DS_Store
+._*
+
+# Keep uv.lock and .python-version in version control.
